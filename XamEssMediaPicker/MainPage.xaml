@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamEssMediaPicker.MainPage"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true">
+
+    <StackLayout Orientation="Vertical" Padding="20" HorizontalOptions="StartAndExpand">
+        <Button Text="Pick Photo" Clicked="PickPhotoButton_Clicked" FontSize="20" />
+        <Label x:Name="PickPhotoSizeLabel" FontSize="20" />
+        <Button Text="Capture Photo" Clicked="TakePhotoButton_Clicked" FontSize="20" />
+        <Label x:Name="TakePhotoSizeLabel" FontSize="20" />
+    </StackLayout>
+
+</ContentPage>
